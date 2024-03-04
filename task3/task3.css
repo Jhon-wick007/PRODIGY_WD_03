@@ -1,0 +1,117 @@
+h1 { 
+	color: orangered; 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+    border-radius: 10%;
+    border:5px solid red;
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+#b1{ 
+	border-bottom: 5px solid rgb(15, 7, 240); 
+	border-right: 5px solid rgb(7, 7, 236); 
+} 
+
+#b2 { 
+	border-bottom: 5px solid rgb(60, 7, 235); 
+	border-right: 5px solid rgb(83, 6, 237); 
+	border-left: 5px solid rgb(76, 6, 227); 
+} 
+
+#b3 { 
+	border-bottom: 5px solid rgb(85, 6, 232); 
+	border-left: 5px solid rgb(77, 9, 236); 
+} 
+
+#b4 { 
+	border-top: 5px solid rgb(83, 5, 253); 
+	border-bottom: 5px solid rgb(46, 7, 240); 
+	border-right: 5px solid rgb(46, 2, 240); 
+} 
+	
+#b5 { 
+	border: 5px solid rgb(5, 16, 241); 
+} 
+
+#b6 { 
+	border-top: 5px solid rgb(15, 8, 235); 
+	border-bottom: 5px solid rgb(68, 6, 239); 
+	border-left: 5px solid rgb(70, 11, 234); 
+} 
+
+#b7 { 
+	border-top: 5px solid rgb(38, 4, 230); 
+	border-right: 5px solid rgb(9, 21, 237); 
+} 
+
+#b8 { 
+	border-top: 5px solid rgb(27, 7, 241); 
+	border-right: 5px solid rgb(59, 4, 198); 
+	border-left: 5px solid rgb(78, 8, 240); 
+} 
+
+#b9 { 
+	border-top: 5px solid rgb(53, 6, 244); 
+	border-left: 5px solid rgb(9, 44, 244); 
+} 
+
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid dodgerblue; 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: whitesmoke; 
+	color: dodgerblue; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: dodgerblue; 
+	font-size: 20px; 
+} 
+
+#main { 
+	text-align: center; 
+    background-color: cadetblue;
+} 
+body{
+    background-color: cadetblue;
+}
+
+
+#ins { 
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: larger;
+
+	color: rgba(239, 22, 214, 0.75); 
+}
